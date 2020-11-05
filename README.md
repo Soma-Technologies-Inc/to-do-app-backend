@@ -11,7 +11,7 @@ _To-do list app is an application that can help a user to make a list of tasks t
 
 
 ### REST API Docs
-The Api documentation is done using swagger. View [Barefoot Nomad API Documentation](https://)
+The Api documentation is done using swagger. View [To-do app API Documentation](https://)
 
 ### Required Features
 
@@ -26,7 +26,7 @@ The Api documentation is done using swagger. View [Barefoot Nomad API Documentat
 
 ## Installation and Running the Application
 
-* Clone the repository using: `git clone https://github.com/andela/blackninjas-backend.git`
+* Clone the repository using: `git clone https://github.com/Soma-Technologies-Inc/to-do-app-backend.git`
 * Run `npm install` To install the project dependencies
 * Run `npm dev-start` To start the application
 * Run `npm test` to run test
