@@ -1,10 +1,5 @@
 const  express = require('express');
-
-const {CreateTask, TaskUpdateController, getTask}=require('../Controllers/index')
-
+const {TaskUpdateController}=require('../Controllers/index')
 const router=express.Router();
-router.get('/tasks',getTask)
-router.post('/tasks',CreateTask)
-router.put('/tasks/:id',TaskUpdateController)
-
+router.put('/tasks/:TaskId',TaskUpdateController)
 module.exports=router;
