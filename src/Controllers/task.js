@@ -9,10 +9,7 @@ const newTask={
 Tasks.push(newTask)  
 return res.status(201).send(Tasks)
 }
-const getCreatedTasks=(req,res)=>{
-    return res.status(200).send(Tasks);
-}
-module.exports={CreateTaskController,getCreatedTasks}
+module.exports={CreateTaskController}
 
 
 
